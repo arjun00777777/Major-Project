@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-page{
+    background: url('./images/logi-page-and-register-page.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    width: 100%;
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.form-inputs{
+    width: 50%;
+    height: 50%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: transparent;
+    opacity: 0.7;
+    backdrop-filter: blur(11px); 
+    background-color: rgba(92, 83, 83, 0.947); 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    border-radius: 20px;
+    padding: 10px;
+}
+.form input{
+    width: 45%;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: white;
+}
+.btn-submit{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.login{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+/* register-page */
+.register-page{
+    background: url('./images/logi-page-and-register-page.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* dashboard-page */
+
+.dash-page{
+    /* display: flex; */
+    background: url("./images/dashboard-img.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.dash-dash{
+    /* background:  url('./Images/bulb.jpg'); */
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    list-style: none;
+    padding: 10px;
+}
+.admin{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.content-edu h2{
+    color: white;
+}
+
+.seller-page{
+    color: white;
+    text-decoration:none ;
+}
+.two-btns{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.two-btns button{
+    padding: 20px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 20px;
+}
+
+.merchant-details{
+    display: flex;
+    flex-direction: column;
+    background: url('./images/merchant-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.lists-merchant{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 120px auto;
+    min-height: 300px;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+.inside-list{
+    width: 25%;
+    opacity: 0.7;
+    gap: 20px;
+    backdrop-filter: blur(11px); 
+    background-color: rgba(8, 8, 8, 0.397); 
+    box-shadow: 0 15px 25px rgba(8, 8, 8, 0.2); 
+    gap: 12px;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    background: url('./images/user-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.transaction-details{
+    display: flex;
+    flex-direction: column;
+    background: url('./images/data-img.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+/*email-page*/
+.email-page{
+    background: url("./images/email-img.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+.email-form{
+    width: 100%;
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email-inputs{
+    width: 50%;
+    height: 50%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: transparent;
+    opacity: 0.7;
+    backdrop-filter: blur(11px); 
+    background-color: rgba(92, 83, 83, 0.947); 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    border-radius: 20px;
+    padding: 30px;
+}
+.email input{
+    width: 45%;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.email-submit{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
